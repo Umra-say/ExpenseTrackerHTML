@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="ETstyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Smart Expense Tracker</h1>
+            
+            <div class="form-container">
+              <input type="text" id="expense-name" placeholder="Expense Name" />
+              <input type="number" id="expense-amount" placeholder="Amount" />
+              <button onclick="addExpense()">Add Expense</button>
+            </div>
+            
+            <div class="expense-list">
+              <ul id="expense-list">
+              </ul>
+            </div>
+            
+            <div class="total-expense">
+              <p>Total Expense: Rs.<span id="total-amount">0</span></p>
+            </div>
+          </div>
+        
+          <script src="script.js"></script>
+    </body>
+</html>
